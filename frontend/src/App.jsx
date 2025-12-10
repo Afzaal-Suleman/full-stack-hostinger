@@ -7,7 +7,7 @@ function App() {
   
 
   const fetchApi = () => {
-    fetch("http://localhost:4000/api/message").then((res) => res.json()).then((data) => setMessage(data?.message)).catch((error) => console.log("api error", error)
+    fetch("http://72.60.111.9:4000/api/message").then((res) => res.json()).then((data) => setMessage(data?.message)).catch((error) => console.log("api error", error)
     )
   }
   useEffect(() => {
